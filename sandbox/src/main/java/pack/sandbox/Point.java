@@ -1,3 +1,5 @@
+package pack.sandbox;
+
 public class Point {
 
     public  double x;
