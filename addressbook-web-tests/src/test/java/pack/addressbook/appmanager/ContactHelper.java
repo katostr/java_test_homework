@@ -28,4 +28,10 @@ type(By.name("email"),contactData.email());
     public void initContactCreation() {
         click(By.linkText("add new"));
     }
+
+    public void selectContact() { click(By.name("selected[]"));}
+
+    public void deleteSelectedContact() {click(By.xpath("//input[@value='Delete']"));
+
+    }
 }
