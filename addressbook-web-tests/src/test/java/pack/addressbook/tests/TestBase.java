@@ -6,7 +6,7 @@ import pack.addressbook.appmanager.ApplicationManager;
 
 public class TestBase {
 
-    protected final ApplicationManager app = new ApplicationManager();
+    protected  ApplicationManager app = new ApplicationManager();
 
     @BeforeMethod(alwaysRun = true)
     public void setUp() {
@@ -17,5 +17,6 @@ public class TestBase {
     public void tearDown() {
         app.stop();
     }
+
 
 }
