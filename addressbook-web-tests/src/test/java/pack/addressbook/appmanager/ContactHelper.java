@@ -34,4 +34,10 @@ type(By.name("email"),contactData.email());
     public void deleteSelectedContact() {click(By.xpath("//input[@value='Delete']"));
 
     }
+
+    public void initContactModification() { click(By.xpath("//img[@alt='Edit']"));
+    }
+
+    public void submitContactModification() {click(By.name("update"));
+    }
 }
